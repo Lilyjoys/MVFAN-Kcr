@@ -13,7 +13,7 @@ pip install torch pandas numpy scikit-learn matplotlib tkinter imbalanced-learn 
 ```
 
 
-##  Model Training (5-Fold Cross Validation)
+##  Model Training 
 
 
 
