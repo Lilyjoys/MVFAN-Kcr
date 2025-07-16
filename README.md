@@ -45,18 +45,6 @@ python Test.py
 
 An interactive GUI is available for users to make predictions without coding.
 
-### Features
-
-- Auto-extraction of:
-  - **ESM2 protein embeddings**
-  - **One-hot encodings**
-- **ANOVA**-based feature selection
-- Supports **DNN, CNN, and MLP Attention-based classifiers**
-- Shows:
-  - Individual model predictions
-  - Final **majority voting** result
-- Allows exporting results as `.csv`
-
 ###  Launch GUI
 
 ```bash
