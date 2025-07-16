@@ -2,7 +2,7 @@
 
 **MVFAN-Kcr** is a deep learning-based framework designed for accurate identification of **Lysine Crotonylation (Kcr) sites**. It integrates **multi-view feature fusion** (ESM2 embeddings, One-Hot encoding, ANOVA feature selection) with **attention-based neural networks** to enhance prediction performance.
 
----
+
 
 ##  Requirements
 
