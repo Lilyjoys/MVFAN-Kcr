@@ -1,10 +1,10 @@
-# 🧬 MVFAN-Kcr: A Multi-View Feature Fusion and Attention-Based Network for Lysine Crotonylation Site Identification
+#  MVFAN-Kcr: A Multi-View Feature Fusion and Attention-Based Network for Lysine Crotonylation Site Identification
 
 **MVFAN-Kcr** is a deep learning-based framework designed for accurate identification of **Lysine Crotonylation (Kcr) sites**. It integrates **multi-view feature fusion** (ESM2 embeddings, One-Hot encoding, ANOVA feature selection) with **attention-based neural networks** to enhance prediction performance.
 
 ---
 
-## 📦 Requirements
+##  Requirements
 
 Install dependencies using:
 
@@ -12,16 +12,12 @@ Install dependencies using:
 pip install torch pandas numpy scikit-learn matplotlib tkinter imbalanced-learn biopython
 ```
 
----
 
-## 🏋️ Model Training (5-Fold Cross Validation)
+##  Model Training (5-Fold Cross Validation)
 
-### 📁 Input Files
 
-- `onehot+anova+S.csv`: Positive training samples
-- `onehot+anova-S.csv`: Negative training samples
 
-### ▶️ Run Training
+###  Run Training
 
 ```bash
 python train/DNN_ATT.py
@@ -29,28 +25,27 @@ python train/CNN_ATT.py
 python train/MLP_ATT.py
 ```
 
----
 
-## 🔬 Model Testing
+##  Model Testing
 
-### 📁 Input Files
+###  Input Files
 
 - `test-onehot+anova+.csv`: Positive test samples
 - `test-onehot+anova-.csv`: Negative test samples
 
-### ▶️ Run Testing
+### Run Testing
 
 ```bash
 python Test.py
 ```
 
----
 
-## 🖥️ GUI-Based Online Predictor
+
+## GUI-Based Online Predictor
 
 An interactive GUI is available for users to make predictions without coding.
 
-### ✅ Features
+### Features
 
 - Auto-extraction of:
   - **ESM2 protein embeddings**
@@ -62,16 +57,16 @@ An interactive GUI is available for users to make predictions without coding.
   - Final **majority voting** result
 - Allows exporting results as `.csv`
 
-### ▶️ Launch GUI
+###  Launch GUI
 
 ```bash
 python predicter.py
 ```
 
-> 🪟 A user-friendly interface opens to select input files, run prediction, and view results.
+> A user-friendly interface opens to select input files, run prediction, and view results.
 
----
 
-## 📬 Contact
+
+## Contact
 
 If you have questions, feel free to contact: **zuoyun@jiangnan.edu.cn** or open an issue.
